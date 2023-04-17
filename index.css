@@ -1,0 +1,71 @@
+body{
+    background-image:linear-gradient(to right, aqua, violet);
+    /* text-align:center; */
+}
+input{
+    margin:15px;
+}
+h1{
+    letter-spacing:20px;
+}
+ol1{
+    list-style-type: ol;
+}
+ol2{
+    list-style-type: ol;
+}
+button {
+width: 120px;
+height: 40px;
+font-size: 11px;
+text-transform: uppercase;
+letter-spacing: 2.5px;
+font-weight: 800;
+color: #000;
+background:linear-gradient(180deg,aqua, black) ;
+border: none;
+border-radius: 45px;
+box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+transition: all 0.3s ease 0s;
+cursor: pointer;
+/* background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
+}
+
+button:hover{
+    background: linear-gradient(40deg,red,orange,yellow,green,blue,indigo,violet);
+}
+
+table {
+font-family: arial, sans-serif;
+border: 1px solid #dddddd;
+width: 100%;
+}
+li:nth-child(odd) {
+color: #dddddd;
+background: linear-gradient(40deg,indigo,violet);
+}
+
+body {
+background: linear-gradient(80deg, red,orange,yellow,green,blue,indigo,violet);
+background-size: 400% 400%;
+animation: gradient 15s ease infinite;
+height: 100vh;
+}
+
+@keyframes gradient {
+0% {
+    background-position: 0% 50%;
+}
+50% {
+    background-position: 100% 50%;
+}
+100% {
+    background-position: 0% 50%;
+}
+
+}
+li{
+border-radius:25px ;
+border:1px solid #000;
+text-align:center;
+}
